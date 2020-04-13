@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>My profile</title>
+    </head>
+    <body>
+        <!-- <img src="viswa.jpg" width='20%' alt='Smiley face' style="display: block; margin-left: auto;margin-right: auto;" /> -->
+            <div class = 'hyperlinks'>
+              <p><a href="C:\Users\Hi\Desktop\my_website\website.html">Home</a></p>
+              <p><a href="C:\Users\Hi\Desktop\my_website\about-me.html">About</a></p>
+              <p><a href="file:///C:/Users/Hi/Desktop/my_website/page4.html">My Projects</a></p>
+              <p><a href="file:///C:/Users/Hi/Desktop/my_website/page3.html">My Aim</a></p>
+            </div>
+            <h2 style="text-align:center"></h2>
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <div style="display:inline-block;vertical-align:top;">
+                            <img src="tony.jpg" width ='50%' alt="img"/>
+                        </div>
+                        <div style="display:inline-block;">
+                            <p class="title">Projects</p>
+                            
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            
+    </body>
+    <style>
+      .hyperlinks
+      {
+        margin: 0;
+        padding: 0;
+        width: 225px;
+        height: 68px;
+        float: left
+      }
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.609);
+        margin: 8px;
+      }
+      p:first-letter{
+               text-transform: uppercase;
+          }
+        p {
+        color: #424242;
+        font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+        letter-spacing:0.1em;
+        text-align:center;
+        margin: 40px auto;
+        text-transform: lowercase;
+        line-height: 145%;
+        font-size: 14pt;
+        font-variant: small-caps;
+        }
+     </style>
+     <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        /* Create four equal columns that floats next to each other
+        .column {
+          float: left;
+          width: 25%;
+          padding: 10px;
+          height: 300px; /* Should be removed. Only for demonstration */
+        /* } */ 
+        
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <h2>Few of my personal projects are:  </h2>
+        
+        <div class="row">
+          <div class="column" style="background-color:#aaa;">
+            <h2>Sentiment Analysis </h2>
+            <p>Sentiment analysis is the act of analyzing words to determine sentiments and opinions
+                 that may be positive or negative in polarity. This is a type of 
+                 classification where the classes may be binary (positive and negative) or multiple (happy, angry, sad, disgusted,..).
+                  We’ll implement this data science project in the language R and use the dataset by the ‘janeaustenR’ package. We will
+                   use general-purpose lexicons like AFINN, bing, and loughran, perform an inner join, and in the end, we’ll build a word
+                    cloud to display the result.</p>
+
+          </div>
+          <div class="column" style="background-color:#bbb;">
+            <h2>Amazon Fine Food Reviews</h2>
+            <p>he Amazon Fine Food Reviews dataset consists of reviews of fine foods from Amazon. With the perception of text/review we predicted 
+                the polarity of review.In this project we applied various algorithm such as KNN,Naive Bayes,Logistic Regression</p>
+          </div>
+          
+        </div>
+        
+</html>
